@@ -1,0 +1,11 @@
+10
+Davide;Folliero;TN3891937;Meteorologia-6-23-Giuliana-Svegli;Chimica-6-25-Alberto-Viglioni
+Francesco;Rossi;TN2872633;Diritto-24-24-Antonio-Ruperti;Informatica-12-22-Giulio-Rolle;Chimica-12-29-Francesco-Gilberti;Biologia-12-28-Marzia-Fretta;Geografia-6-21-Flavio-Penna;Fenomenologia-9-18-Francesca-Ghezzi;Anatomia-12-20-Flavia-Fattori;Economia-9-23-Antonietta-Furlani;Programmazione-9-31-Giulio-Rolle;Cybersecurity-9-30-Federico-Disciole;Geometria-6-21-Giovanna-Bisceglie
+Giovanni;Piazza;TN2981947;Programmazione-9-18-Giulio-Rolle;Diritto-24-21-Antonio-Ruperti;Cybersecurity-9-23-Federico-Disciole;Filosofia-12-25-Franco-Girolami;Anatomia-12-23-Michela-Piscopo;Fenomenologia-9-22-Francesca-Ghezzi;Geometria-6-22-Giovanna-Bisceglie;Economia-9-24-Antonietta-Furlani;Informatica-12-24-Giulio-Rolle
+Elisabetta;Milano;TN9213719
+Mattia;Marchesi;TN8319471;Alimentazione-12-18-Federica-Calvari;Formazione-6-18-Michele-Polventi;Programmazione-12-30-Giuseppe-Talami;
+Roberta;Lettiere;TN2819474;Comunicazione-9-23-Giuditta-Guelfi
+Giuseppe;Verdi;TN1253425;Informatica-12-25-Giulio-Rolle;Programmazione-9-18-Giulio-Rolle;Fisica-12-22-Francesco-Saibene;Geografia-6-25-Giovanni-Rubele;Diritto-24-20-Antonio-Ruperti;Anatomia-12-30-Flavia-Fattori;Economia-9-28-Antonietta-Furlani;Filosofia-12-18-Franco-Girolami;Cybersecurity-9-24-Federico-Disciole;Geometria-6-22-Giovanna-Bisceglie;Fenomenologia-9-28-Francesca-Ghezzi
+Natalino;Calabrese;TN2938475;Inglese-9-23-Judy-Smith;Pedagogia-6-23-Simona-Stenchi
+Martina;Giordano;TN3561253;Anatomia-12-27-Flavia-Fattori;Informatica-12-26-Giulio-Rolle;Geometria-6-24-Giovanna-Bisceglie;Programmazione-9-19-Giulio-Rolle;Cybersecurity-9-28-Federico-Disciole;Fenomenologia-9-26-Francesca-Ghezzi;Economia-9-25-Antonietta-Furlani;Diritto-24-18-Antonio-Ruperti;Filosofia-12-22-Franco-Girolami;Alimentazione-12-19-Federica-Calvari;Formazione-6-20-Michele-Polventi;Biochimica-3-30-Michele-Tiroldi
+Fausta;Rocchetti;TN1929385;Sociologia-6-22-Antonella-Marachini;Pedagogia-6-18-Simona-Stenchi;Comunicazione-9-31-Giuditta-Guelfi;Inglese-9-28-Andrew-Steward
