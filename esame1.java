@@ -225,15 +225,58 @@ public class esame1 {
         }
         
     }
-    public static void metodoScarso() throws Exception{
-        throw new Exception();
+    
+    public static void saveStudentData2(Student[] data, File f){
+        FileOutputStream w;
+        try{
+            w = new FileOutputStream(f);
+            for(Student std : data){
+                w.write(( std.toString()).getBytes()) ;
+                for (Exam e : std.getExamList())
+                    w.write(( e.toString()).getBytes());
+            }
+        }catch(Exception e){
+            System.out.println("ERROR OCCURRED WHILE WRITING ON FILE:");
+            System.out.println(e);
+            e.printStackTrace();
+        }
+        
     }
-    
-    
+    public static void saveData(byte[] data, File f){
+        FileOutputStream w;
+        try{
+            w = new FileOutputStream(f);
+            w.write(data);
+        }catch(Exception e){
+            System.out.println("ERROR OCCURRED WHILE WRITING ON FILE:");
+            System.out.println(e);
+            e.printStackTrace();
+        }
+        
+    }
+    public static void saveStudentData3(Student[] data)throws Exception{
+        File f = new File("C:/Users/Leonardo/Desktop/output2.txt");
+        FileWriter fw=new FileWriter(f);
+        
+        for(Student std : data){
+            fw.write( std.toString() );
+        }
+    }
     public static void main(String[] args) {
-        Student[] data = readFromFile(new File("C:/Users/Leonardo/Desktop/input.txt"));
-        fixMarks(data, "Programmazione", +1);
-        printStudentData(data);
-        saveStudentData(data, new File("C:/Users/Leonardo/Desktop/output2.txt"));
+        esame1.Student[] data = readFromFile(new File("C:/Users/Leonardo/Desktop/input.txt"));
+        //fixMarks(data, "Programmazione", +1);
+        //printStudentData(data);
+        File f = new File("C:/Users/Leonardo/Desktop/output2.txt");
+        try{
+            FileWriter fw=new FileWriter(f);
+            Student std = (Student) data[1];
+            fw.write( (String) std.toString() );
+            System.out.println(std.toString());
+        } catch(Exception e){
+            System.out.println("lol");
+        }
     }
 }
+
+
+
